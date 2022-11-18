@@ -20,4 +20,9 @@ describe('ButtonAddComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it("Debe inicializar el contador en 0", ()=>{
+    console.log(component.contador);
+  })
+
 });
